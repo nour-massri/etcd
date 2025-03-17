@@ -12,10 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !windows
-//go:build !wasip1
-// +build !windows
-// +build !wasip1
+//go:build !windows && !wasip1
+// +build !windows,!wasip1
 
 package logutil
 
