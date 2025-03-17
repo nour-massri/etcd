@@ -1,4 +1,4 @@
-module github.com/ArielSzekely/etcd/client/v2
+module github.com/nour-massri/etcd/client/v2
 
 go 1.21
 
@@ -6,7 +6,7 @@ require (
 	github.com/json-iterator/go v1.1.11
 	github.com/modern-go/reflect2 v1.0.1
 	go.etcd.io/etcd/api/v3 v3.5.13
-	github.com/ArielSzekely/etcd/client/pkg/v3 v3.5.13
+	github.com/nour-massri/etcd/client/pkg/v3 v3.5.13
 )
 
 require (
@@ -16,7 +16,7 @@ require (
 
 replace (
 	go.etcd.io/etcd/api/v3 => ../../api
-	github.com/ArielSzekely/etcd/client/pkg/v3 => ../pkg
+	github.com/nour-massri/etcd/client/pkg/v3 => ../pkg
 )
 
 // Bad imports are sometimes causing attempts to pull that code.

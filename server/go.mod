@@ -1,4 +1,4 @@
-module github.com/ArielSzekely/etcd/server/v3
+module github.com/nour-massri/etcd/server/v3
 
 go 1.21
 
@@ -46,7 +46,7 @@ require (
 )
 
 require (
-	github.com/ArielSzekely/etcd/client/pkg/v3 v3.5.14-0.20240509122019-2017780fe708 // indirect
+	github.com/nour-massri/etcd/client/pkg/v3 v3.5.14-0.20240509122019-2017780fe708 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect

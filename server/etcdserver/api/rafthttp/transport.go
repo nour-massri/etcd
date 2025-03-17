@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ArielSzekely/etcd/client/pkg/v3/transport"
+	"github.com/nour-massri/etcd/client/pkg/v3/transport"
 	"go.etcd.io/etcd/client/pkg/v3/types"
 	"go.etcd.io/etcd/raft/v3"
 	"go.etcd.io/etcd/raft/v3/raftpb"

@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ArielSzekely/etcd/client/pkg/v3/transport"
+	"github.com/nour-massri/etcd/client/pkg/v3/transport"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

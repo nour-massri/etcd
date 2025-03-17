@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ArielSzekely/etcd/client/pkg/v3/transport"
+	"github.com/nour-massri/etcd/client/pkg/v3/transport"
 	"go.etcd.io/etcd/api/v3/version"
 	"go.etcd.io/etcd/client/pkg/v3/types"
 

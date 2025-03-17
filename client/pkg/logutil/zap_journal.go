@@ -13,7 +13,9 @@
 // limitations under the License.
 
 //go:build !windows
+//go:build !wasip1
 // +build !windows
+// +build !wasip1
 
 package logutil
 
@@ -25,7 +27,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ArielSzekely/etcd/client/pkg/v3/systemd"
+	"github.com/nour-massri/etcd/client/pkg/v3/systemd"
 
 	"github.com/coreos/go-systemd/v22/journal"
 	"go.uber.org/zap/zapcore"
