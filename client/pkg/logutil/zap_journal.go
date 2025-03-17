@@ -13,7 +13,9 @@
 // limitations under the License.
 
 //go:build !windows
+//go:build !wasip1
 // +build !windows
+// +build !wasip1
 
 package logutil
 
